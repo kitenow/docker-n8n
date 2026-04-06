@@ -22,8 +22,9 @@ DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@db:5432/${DB_NAME}?schema=pu
 N8N_WEBHOOK_URL=http://n8n:5678/webhook/your-id
 
 # Public IP (If no domain)
-PUBLIC_IP=132.145.81.59
+PUBLIC_IP=193.122.99.236
 ```
+ssh -i ~/.ssh/ssh-key-2026-01-18.key ubuntu@193.122.99.236
 
 ### 3. Run the Project
 ```bash
